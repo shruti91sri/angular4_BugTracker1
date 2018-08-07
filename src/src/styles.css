@@ -1,0 +1,35 @@
+/* Add application styles & imports to this file! */
+/* Add application styles & imports to this file! */
+body{
+			margin-left: 50px;
+		}
+		section{
+			margin-bottom: 10px;
+		}
+		.stats, .bugname{
+			font-size: 20pt;
+		}
+		.closed{
+			color : red;
+			text-decoration: line-through;
+			font-style: italic;
+			font-weight: bold;
+		}
+		ol{
+			width: 500px;
+			list-style: none;
+			-webkit-padding-start : 0px;
+		}
+		li{
+			border : 1px solid gray;
+			margin-bottom: 10px;
+			padding: 10px;
+			border-radius: 5px;
+			background-color: #e7e7e7;
+		}
+		.datetime{
+			font-style: italic;
+		}
+		.bugname{
+			cursor: pointer;
+		}
